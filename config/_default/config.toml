@@ -1,6 +1,4 @@
-baseurl = "/"
-#relativeURLs = true
-# uglyURLs = true
+baseurl = "invmv.github.io/Notion-Hugo-dream"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-cn"
 title = "Hugo Theme Dream"
