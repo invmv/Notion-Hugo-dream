@@ -91,7 +91,7 @@
       </header>
 
       {{ if and .Params.Cover site.Params.showSummaryCoverInPost }}
-      <img src="{{ .Params.Cover }}" />
+      <img src="{{ .Params.Cover }}" data-action="zoom"/>
       {{ end }}
 
       {{ .Content | emojify }}

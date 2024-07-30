@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "http://invmv.github.io/Notion-Hugo-dream"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-cn"
 title = "Hugo Theme Dream"
@@ -9,6 +9,7 @@ theme = "dream"
 # shortname = ""
 # [services.googleAnalytics]
 # ID = ""
+
 #摘要段落数
 summaryLength = 1
 
@@ -18,7 +19,7 @@ darkTheme = "forest"
 
 # backgroundImage = "/me/background.jpg"
 # backgroundImageDark = ""
-
+# email = ""
 author = "Dream"
 description = " life in for"
 avatar = "/avatar.png"
@@ -26,8 +27,20 @@ headerTitle = "Hugo Theme Dream"
 motto = "llllllllll"
 
 # footerBottomText = ""
+# options
+hasTwitterEmbed = true
+hasCJKLanguage = true
+enableRobotsTXT = true
 
 rss = true
+
+stickyNav = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+showPrevNextPost = true
+showReadingTime = false
+showhomesummary = false
+
 
 # utterancesRepo = ""
 
@@ -35,9 +48,6 @@ rss = true
 # LEANCLOUD_APP_ID = ""
 # LEANCLOUD_APP_KEY = ""
 # VALINE_LANGUAGE = ""
-
-# email = ""
-
 siteStartYear = 2024
 
 favicon = "/favicon.ico"
@@ -45,16 +55,7 @@ favicon = "/favicon.ico"
 # Syntax highlighting
 # customSyntaxHighlighting = true
 
-# options
-stickyNav = true
-showTableOfContents = true
-showSummaryCoverInPost = true
-showPrevNextPost = true
-hasTwitterEmbed = true
-# hasCJKLanguage = true
-# enableRobotsTXT = true
-showReadingTime = false
-showhomesummary = true
+
 
 [params.advanced]
 customCSS = ["css/custom.css"]
