@@ -1,4 +1,4 @@
-baseurl = "http://invmv.github.io/Notion-Hugo-dream"
+baseurl = "http://invmv.github.io/Notion-Hugo-dream/"
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-cn"
 title = "Hugo Theme Dream"
