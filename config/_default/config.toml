@@ -1,5 +1,5 @@
-baseurl = "//invmv.github.io/Notion-Hugo-dream"
-relativeURLs = true
+baseurl = "\"
+#relativeURLs = true
 # uglyURLs = true
 languageCode = "zh-Hans"
 defaultContentLanguage = "zh-cn"
