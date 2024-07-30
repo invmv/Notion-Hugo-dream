@@ -60,7 +60,7 @@ export async function loadConfig(): Promise<Config> {
       if (block.type === "child_page") {
         config.mount.pages.push({
           page_id: block.id,
-          target_folder: ".",
+          target_folder: "./about/",
         });
       }
     }

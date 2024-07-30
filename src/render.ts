@@ -68,7 +68,7 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
   const featuredImageLink = await getCoverLink(page.id, notion);
   if (featuredImageLink) {
     const { link, expiry_time } = featuredImageLink;
-    frontMatter.featuredImage = link;
+    frontMatter.cover = link;
     // update nearest_expiry_time
     if (expiry_time) {
       if (nearest_expiry_time) {
@@ -169,7 +169,10 @@ export async function renderPage(page: PageObjectResponse, notion: Client) {
         user_id: page.last_edited_by.id,
       });
       if (response.name) {
-        frontMatter.authors = [response.name];
+        frontMatter.author = response.name;
+      }
+      if (response.avatar_url) {
+        frontMatter.avatar = response.avatar_url;
       }
     } catch (error) {
       console.warn(`[Warning] Failed to get author name for ${page.id}`);
