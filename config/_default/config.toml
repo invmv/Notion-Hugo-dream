@@ -14,20 +14,19 @@ theme = "dream"
 summaryLength = 1
 
 [params]
-lightTheme = "emerald"
-darkTheme = "forest"
+# 路径切勿以 / 为开头单 路径单独为域名没问题，但是经过域名下一个 / 之后 会出现无法访问资源
 
-# backgroundImage = "/me/background.jpg"
-# backgroundImageDark = ""
-# email = ""
+favicon = "favicon.ico"
+avatar = "avatar.png"
 author = "Dream"
 description = " life in for"
-avatar = "avatar.png"
 headerTitle = "Hugo Theme Dream"
-motto = "llllllllll"
+motto = "hello ！ this notion for dream "
 
+# email = ""
 # footerBottomText = ""
 # options
+
 hasTwitterEmbed = true
 hasCJKLanguage = true
 enableRobotsTXT = true
@@ -41,6 +40,11 @@ showPrevNextPost = true
 showReadingTime = false
 showhomesummary = false
 
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = "/me/background.jpg"
+# backgroundImageDark = ""
 
 # utterancesRepo = ""
 
@@ -50,12 +54,8 @@ showhomesummary = false
 # VALINE_LANGUAGE = ""
 siteStartYear = 2024
 
-favicon = "/favicon.ico"
-
 # Syntax highlighting
 # customSyntaxHighlighting = true
-
-
 
 # [params.advanced]
 # customCSS = ["css/custom.css"]
